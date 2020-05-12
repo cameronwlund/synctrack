@@ -1,0 +1,177 @@
+/* DEFAULTS */
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+}
+
+h1
+    {
+    font-size: 3em;
+}
+
+h2
+    {
+    font-size: 2em;
+}
+
+h3
+    {
+    font-size: 1.5em;
+}
+
+h4
+    {
+    font-size: 1.2em;
+}
+
+h5
+    {
+    font-size: 1em;
+}
+
+p
+    {
+    font-size: 0.8em;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+/* NAVIGATION */
+
+.favicon-nav {
+    /*border: solid 1px #EB5C33;*/
+    border-radius: 5px;
+    padding: 3px;
+    background-image:linear-gradient(to bottom right, #F2B732, #F29F33, #EF8733, #F29F33, #F2B732);
+}
+
+#nav-font {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #EB5C33;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+@media only screen and (max-width: 991.98px) {
+    #login-button {
+        display: none;
+    }
+}
+
+/* HEADER */
+
+.hero-overlay {
+    background-image: linear-gradient(to bottom right, #EA4333, #EB5C33, #EF8733, #F29F33, #F2B732);
+}
+
+.secondary-page-hero-overlay {
+    background-image: linear-gradient(to bottom right, #EA4333, #EB5C33, #EF8733, #F29F33, #F2B732);
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.hero-image {
+    border-top: solid 2px #EB5C33;
+    background-image: url('https://images.unsplash.com/photo-1485388276992-0ce5ce2d6981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80');
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.secondary-page-hero-container {
+    border-top: solid 2px #EB5C33;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+    display: block;
+}
+
+.stats-hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.about-us-hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.title-text {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.secondary-page-title-text {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.button-font {
+    font-family: BlinkMacSystemFont;
+}
+
+/* BODY CONTENT */
+
+
+section {
+
+}
+
+/* FOOTER */
+
+.footer {
+    height: auto;
+    font-size: 0.7em;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.favicon-footer {
+    border: solid 1px #F29F33;
+    border-radius: 5px;
+    padding: 3px;
+    background-image: linear-gradient(to bottom right, #F2B732, #F29F33, #EF8733, #F29F33, #F2B732);
+}
+
+.footer-logo-text {
+    font-size: 1.7em;
+}
+
+.footer-social-icon {
+    border-radius: 5px;
+}
+
+.footer-strava-logo {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.footer-strava-logo-text {
+    font-family: "Allerta Stencil", sans-serif;
+    font-size: 0.8em;
+}
